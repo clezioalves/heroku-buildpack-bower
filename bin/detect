@@ -2,7 +2,7 @@
 # bin/detect <build-dir>
 echo "######## Detect Bower"
 if [ -f $1/package.json ]; then
-  echo "HelloFramework Bower"
+  echo "Node.js"
   exit 0
 fi
 
