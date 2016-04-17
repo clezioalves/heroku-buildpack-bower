@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
-
+echo "######## Detect Bower"
 if [ -f $1/package.json ]; then
   echo "HelloFramework Bower"
   exit 0

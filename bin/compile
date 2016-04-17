@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir> <env-dir>
-echo "Compile Bower"
+echo "######## Compile Bower"
+node install
