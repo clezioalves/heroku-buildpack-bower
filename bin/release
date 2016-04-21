@@ -17,7 +17,6 @@ default_process_types:
 EOF
 fi
 
-bower install
 
 
 
