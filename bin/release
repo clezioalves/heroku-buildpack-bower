@@ -13,10 +13,11 @@ EOF
 if [ ! -f $BUILD_DIR/Procfile ]; then
 cat <<EOF
 default_process_types:
-  web:    bower install
   web:    play run --http.port=\$PORT \$PLAY_OPTS
 EOF
 fi
+
+bower install
 
 
 
