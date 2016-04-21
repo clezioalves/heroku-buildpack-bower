@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
-echo "######## Detect Bower"
+echo "Node -> Bower"
 if [ -f $1/package.json ]; then
   echo "Node.js"
   exit 0
