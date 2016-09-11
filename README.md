@@ -1,7 +1,9 @@
 # heroku-buildpack-bower
 
 - Adicionando pelo terminal:<br/>
-heroku buildpacks:set --index 2 https://github.com/clezioalves/heroku-buildpack-bower.git
+```sh
+$ heroku buildpacks:set --index 2 https://github.com/clezioalves/heroku-buildpack-bower.git
+```
 
 - Adicionar a dependência e script no arquivo package.json:<br/>
 
